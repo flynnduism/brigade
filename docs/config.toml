@@ -8,6 +8,12 @@ relativeURLs = "false"
   title = "Brigade"
   description = "Brigade - Event-driven scripting for Kubernetes."
 
+[[redirects]]
+    from = "/*.md"
+    to = "../:splat/"
+    status = 301
+    force = "false"
+
 # top navigation
     # (side nav is auto generated from content dir)
 [[menu.main]]
